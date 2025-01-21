@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    max-width: 1440px;
+    height: 100vh;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box{
+    width: 400px;
+    height: 410px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    align-content: center;
+    font-size: 48px;
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1237px) { 
+    .main{
+        background-color: yellow;
+        flex-wrap: wrap;
+    }
+    .box{
+        background-color: blue;
+        width: 350px;
+        height: 350px;
+    }
+}
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1064px) {
+    .main{
+        background-color: red;
+        flex-wrap: wrap;
+    }
+    .box{
+        background-color: black;
+        width: 300px;
+        height: 300px;
+    }
+}
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 919px) { 
+    .main{
+        background-color: yellow;
+        flex-wrap: wrap;
+    }
+    .box{
+        background-color: blue;
+        width: 250px;
+        height: 250px;
+    }
+}
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 757px) { 
+    .main{
+        background-color: rgb(133, 15, 133);
+        flex-wrap: wrap;
+    }
+    .box{
+        background-color: rgb(234, 161, 51);
+        width:  300px;
+        height: 300px;
+    }
+}
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 601px) { 
+    .main{
+        background-color: rgb(133, 15, 133);
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .box{
+        background-color: rgb(234, 161, 51);
+        width: 450px;
+        height: 400px;
+    }
+}
